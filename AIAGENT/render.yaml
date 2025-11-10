@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: bengali-translator
+    env: python
+    plan: free
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn aiagent.wsgi:application"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.18
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DEBUG
+        value: False
