@@ -1,130 +1,92 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>StartLeetCodewithMe — Journey</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            primary: '#0ea5a4',
-            accent: '#6366f1',
-          }
-        }
-      }
-    }
-  </script>
-</head>
-<body class="bg-gray-50 text-gray-800 antialiased">
-  <div class="min-h-screen flex items-center justify-center p-6">
-    <div class="max-w-4xl w-full bg-white rounded-2xl shadow-lg ring-1 ring-gray-100 overflow-hidden">
-      <header class="px-8 py-6 flex items-start justify-between">
-        <div>
-          <h1 class="text-2xl font-extrabold tracking-tight text-gray-900 flex items-center gap-3">
-            <span class="inline-block w-10 h-10 bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center text-white font-bold">SL</span>
-            <span>StartLeetCodewithMe</span>
-          </h1>
-          <p class="mt-1 text-sm text-gray-500">Pattern-wise LeetCode journey — 3 problems/day • Starting 22nd</p>
-        </div>
-        <div class="space-x-3">
-          <a href="#" class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary text-white text-sm font-semibold hover:brightness-95">⭐ Star</a>
-          <a href="#" class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-gray-200 text-sm">View on GitHub</a>
-        </div>
-      </header>
+<div align="center">
 
-      <main class="px-8 pb-8">
-        <section class="grid md:grid-cols-2 gap-6 items-center">
-          <div>
-            <h2 class="text-3xl font-extrabold text-gray-900">A simple plan. Daily discipline. Big results.</h2>
-            <p class="mt-4 text-gray-600">From <strong>22nd</strong>, I will solve <strong>3 problems every day</strong>, focused on one algorithmic pattern. This repo contains pattern folders, clean solutions, explanations, and progress notes.</p>
+  <div style="
+      width: 90%;
+      max-width: 900px;
+      background: #0f172a;
+      padding: 32px;
+      border-radius: 16px;
+      box-shadow: 0 0 40px rgba(0,0,0,0.4);
+      color: #e2e8f0;
+      font-family: 'Segoe UI', sans-serif;
+  ">
 
-            <div class="mt-6 flex flex-wrap gap-3">
-              <div class="px-4 py-2 bg-gray-100 rounded-full text-sm font-medium">Daily: 3 problems</div>
-              <div class="px-4 py-2 bg-gray-100 rounded-full text-sm font-medium">Pattern-wise</div>
-              <div class="px-4 py-2 bg-gray-100 rounded-full text-sm font-medium">Clean solutions</div>
-            </div>
+    <h1 style="margin: 0; font-size: 32px; font-weight: 800; display: flex; align-items: center; justify-content: center; gap: 12px;">
+      <div style="
+          width: 48px;
+          height: 48px;
+          background: linear-gradient(135deg, #06b6d4, #6366f1);
+          border-radius: 12px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: bold;
+          color: white;
+      ">SL</div>
+      StartLeetCodewithMe
+    </h1>
 
-            <div class="mt-6 flex gap-3">
-              <a href="#patterns" class="inline-block px-5 py-3 rounded-lg bg-accent text-white font-semibold">See patterns</a>
-              <a href="#progress" class="inline-block px-5 py-3 rounded-lg border border-gray-200 text-sm">My progress</a>
-            </div>
-          </div>
+    <p style="color:#94a3b8; margin-top: 8px; font-size: 15px;">
+      Pattern-wise LeetCode journey — <b>3 problems per day</b> starting from <b>22nd</b>.
+    </p>
 
-          <div class="bg-gradient-to-br from-primary/10 to-accent/8 rounded-xl p-6">
-            <div class="flex items-center gap-4">
-              <div class="w-16 h-16 flex items-center justify-center bg-white rounded-lg shadow">📈</div>
-              <div>
-                <p class="text-sm text-gray-500">Goal</p>
-                <p class="text-lg font-semibold text-gray-900">Build strong DSA skills</p>
-              </div>
-            </div>
-
-            <div class="mt-6 grid grid-cols-3 gap-4">
-              <div class="p-3 bg-white rounded-lg text-center">
-                <p class="text-xs text-gray-500">Daily</p>
-                <p class="font-bold text-xl">3</p>
-              </div>
-              <div class="p-3 bg-white rounded-lg text-center">
-                <p class="text-xs text-gray-500">Start Date</p>
-                <p class="font-bold text-xl">22nd</p>
-              </div>
-              <div class="p-3 bg-white rounded-lg text-center">
-                <p class="text-xs text-gray-500">Pattern</p>
-                <p class="font-bold text-xl">Focused</p>
-              </div>
-            </div>
-
-            <p class="mt-6 text-sm text-gray-500">Notes: Each pattern folder has 3 solutions per day with explanations and key takeaways.</p>
-          </div>
-        </section>
-
-        <section id="patterns" class="mt-8">
-          <h3 class="text-xl font-semibold">Patterns (example)</h3>
-          <div class="mt-4 grid sm:grid-cols-3 gap-4">
-            <article class="p-4 bg-white rounded-lg shadow-sm">
-              <h4 class="font-semibold">Two Pointers</h4>
-              <p class="text-sm text-gray-500 mt-2">Sliding window, sorted arrays — 3 problems per day.</p>
-            </article>
-            <article class="p-4 bg-white rounded-lg shadow-sm">
-              <h4 class="font-semibold">Binary Search</h4>
-              <p class="text-sm text-gray-500 mt-2">Classic & variant problems with explanation.</p>
-            </article>
-            <article class="p-4 bg-white rounded-lg shadow-sm">
-              <h4 class="font-semibold">Dynamic Programming</h4>
-              <p class="text-sm text-gray-500 mt-2">State definition, transitions, and optimization notes.</p>
-            </article>
-          </div>
-        </section>
-
-        <section id="progress" class="mt-8">
-          <h3 class="text-xl font-semibold">Progress tracker</h3>
-          <div class="mt-4 bg-white rounded-lg p-4 shadow-sm">
-            <div class="flex items-center justify-between">
-              <div>
-                <p class="text-sm text-gray-500">Days completed</p>
-                <p class="text-2xl font-bold">0</p>
-              </div>
-              <div>
-                <p class="text-sm text-gray-500">Problems solved</p>
-                <p class="text-2xl font-bold">0</p>
-              </div>
-            </div>
-            <p class="mt-4 text-sm text-gray-500">Update these numbers in the repo README or a simple JSON file to keep the tracker live.</p>
-          </div>
-        </section>
-
-        <footer class="mt-8 border-t pt-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-          <p class="text-sm text-gray-500">Made with focus • Keep it consistent — Noman</p>
-          <div class="flex items-center gap-3">
-            <a href="#" class="text-sm px-3 py-2 border rounded-lg">Contribute</a>
-            <a href="#" class="text-sm px-3 py-2 bg-primary text-white rounded-lg">Download HTML</a>
-          </div>
-        </footer>
-      </main>
+    <div style="margin: 22px 0; display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+      <div style="padding: 8px 14px; border-radius: 999px; background: rgba(255,255,255,0.05); color:#94a3b8; font-size: 13px;">Daily: 3 Problems</div>
+      <div style="padding: 8px 14px; border-radius: 999px; background: rgba(255,255,255,0.05); color:#94a3b8; font-size: 13px;">Pattern-Wise</div>
+      <div style="padding: 8px 14px; border-radius: 999px; background: rgba(255,255,255,0.05); color:#94a3b8; font-size: 13px;">Clean Solutions</div>
+      <div style="padding: 8px 14px; border-radius: 999px; background: rgba(255,255,255,0.05); color:#94a3b8; font-size: 13px;">Consistent Growth</div>
     </div>
+
+    <h2 style="font-size: 20px; margin-top: 28px;">📌 What This Repository Contains</h2>
+    <ul style="text-align:left; display:inline-block; margin-top:10px; color:#94a3b8; font-size: 15px;">
+      <li>Pattern-wise solution folders (Two Pointers, Binary Search, DP, etc.)</li>
+      <li>3 problems solved daily from a single pattern</li>
+      <li>Short clean explanations in each file</li>
+      <li>Progress tracking and consistency logs</li>
+    </ul>
+
+    <h2 style="font-size: 20px; margin-top: 28px;">📅 Daily Rule</h2>
+    <ul style="text-align:left; display:inline-block; margin-top:10px; color:#94a3b8; font-size: 15px;">
+      <li>Solve <b>3 problems</b> every day</li>
+      <li>Focus on <b>one pattern per day</b></li>
+      <li>Add explanation & complexity notes</li>
+      <li>Commit the solutions neatly</li>
+    </ul>
+
+    <h2 style="font-size: 20px; margin-top: 28px;">📁 Example File Naming</h2>
+    <pre style="
+        background:#1e293b;
+        padding: 12px;
+        color:#cbd5e1;
+        border-radius: 8px;
+        font-size: 14px;
+        text-align:left;
+        display:inline-block;
+        margin-top: 10px;
+    ">
+2025-11-22_two-pointers_1.py
+    </pre>
+
+    <h2 style="font-size: 20px; margin-top: 28px;">🚀 Why I Started This</h2>
+    <p style="color:#94a3b8; max-width:700px; margin:0 auto; font-size: 15px;">
+      To build strong DSA skills, improve problem-solving thinking, stay consistent, and prepare myself to become a better engineer.
+    </p>
+
+    <a href="#" style="
+        display:inline-block;
+        margin-top: 26px;
+        background: linear-gradient(90deg, #06b6d4, #0ea5e9);
+        padding: 12px 20px;
+        border-radius: 10px;
+        color:#0f172a;
+        font-weight: 700;
+        text-decoration:none;
+        font-size: 15px;
+    ">Follow My Journey</a>
+
+    <p style="margin-top: 28px; color:#64748b; font-size: 13px;">
+      Made with consistency • Keep going — <b>Noman</b>
+    </p>
+
   </div>
-</body>
-</html>
+</div>
