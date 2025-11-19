@@ -1,4 +1,4 @@
-# 🚀 StartLeetCodewithMe
+# StartLeetCodewithMe
 
 A structured journey to master Data Structures & Algorithms through **pattern-wise** problem solving.
 
