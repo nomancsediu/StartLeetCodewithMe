@@ -37,7 +37,6 @@ To build strong DSA skills, improve problem-solving thinking, stay consistent, a
 | 1 | - | Two Pointers | Two Sum | ✅ Complete |
 | 2 | - | Two Pointers | Three Sum | ✅ Complete |
 
-
 ## 🎯 Current Focus
 
 **Two Pointers Pattern** - Step by step mastery
@@ -65,7 +64,8 @@ Each solution follows this structure:
 ## 📚 Patterns to Cover
 
 1. **Two Pointers** (Day 1-2) - 🔄 Current
-More...
+
+*More patterns coming soon...*
 
 ## 🤝 Contributing
 
@@ -84,5 +84,3 @@ This is a personal learning journey, but feel free to:
 ---
 
 **Remember**: Consistency beats perfection. Keep coding, keep growing! 🚀
-
-*Last Updated: Day 2 - Two Pointers Pattern*
