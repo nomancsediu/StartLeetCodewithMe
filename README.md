@@ -34,14 +34,14 @@ To build strong DSA skills, improve problem-solving thinking, stay consistent, a
 
 | Day | Date | Pattern | Problem | Status |
 |-----|------|---------|---------|--------|
-| 1 | - | Two Pointers | Two Sum | ✅ Complete |
-| 2 | - | Two Pointers | Three Sum | ✅ Complete |
+| 1 | 21 Nov | Two Pointers | [Two Sum](./Day%20-%201) | ✅ Complete |
+| 2 | 22 Nov | Two Pointers | [Three Sum](./Day%20-%202) | ✅ Complete |
 
 ## 🎯 Current Focus
 
 **Two Pointers Pattern** - Step by step mastery
-- ✅ Day 1: Two Sum (LeetCode #1)
-- ✅ Day 2: Three Sum (LeetCode #15)
+- ✅ Day 1 (21 Nov): [Two Sum](./Day%20-%201) (LeetCode #1)
+- ✅ Day 2 (22 Nov): [Three Sum](./Day%20-%202) (LeetCode #15)
 - ⏳ Day 3: Next Two Pointers problem
 
 ## 📝 Solution Template
