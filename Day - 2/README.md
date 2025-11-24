@@ -1,4 +1,4 @@
-# Day 2: Three Sum
+# Day 2: 3Sum
 
 ## Problem Description
 
