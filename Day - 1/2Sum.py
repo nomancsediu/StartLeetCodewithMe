@@ -28,4 +28,5 @@ class Solution:
             elif nums[right] == a[i]:
                 v.append(i)
 
+
         return v
